@@ -116,7 +116,7 @@ void CItems::Update(DWORD dt, vector<LPGAMEOBJECT>* coObjects)
 }
 void CItems::Render()
 {
-	//DebugOut(L"state %d\n", state);
+	DebugOut(L"state %d\n", state);
 	
 	if (ID_brickkk == 1||ID_brickkk ==3)
 		ani =Coin;
