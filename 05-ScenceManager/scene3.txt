@@ -1,0 +1,739 @@
+[TILEMAP]
+987654321	textures\map1.png	textures\map1.txt	11	11	27	208	16	16
+# id	file_path	transparent_color_r	g	b
+[TEXTURES]
+0	textures\mario1.png		255	255	255
+20	textures\misc.png		166	185	255	
+50	textures\enemies.png		3	26	110
+30	textures\enemies-2.png	0	128	128
+40	textures\special.png		255	255	255
+47	textures\effect.png		176	224	248
+60	textures\enemiesvip.png	255	255	255
+# id	left	top	right	bottom	texture_id
+[SPRITES]
+#Coin
+8888	334	100	348	116	20
+8889	290	100	308	116	20
+8890	354	100	371	116	20
+8891	370	100	386	116	20
+8892	294	101	302	115	20
+8893	319	101	327	115	20
+8894	308	101	316	115	20
+
+#Money
+
+88888	11	223	22	231	47
+88889	10	232	22	240	47
+88890	10	241	22	249	47
+88891	10	250	22	258	47
+88892	24	223	39	231	47
+88893	23	232	39	231	47
+88894	23	241	39	249	47
+88895	23	250	39	258	47
+
+
+# Item
+8888	334	100	348	116	20
+8889	290	100	308	116	20
+8890	354	100	371	116	20
+8891	370	100	386	116	20
+11	156	121	171	137	20
+12	180	123	196	137	20
+13	309	121	325	138	20
+
+# BIG MARIO FIRE
+# idle right
+12001	216	683	230	710	0
+# walk right
+12002	255	683	271	710	0
+12003	295	684	311	710	0
+# idle left
+12005	176	683	190	710	0
+# walk left
+12006	135	683	151	710	0
+12007	95	684	111	710	0
+# sitting left
+12011	16	680	30	716	0
+# sitting right
+12012	376	680	390	716	0
+# stop right
+12016	175	723	191	751	0
+# stop left
+12017	215	723	231	751	0
+# fly right
+12021	335	684	351	710	0
+# fly left
+12022	55	684	71	710	0
+# attack right
+12041	366	803	380	830	0
+# attack left
+12043	26	803	40	830	0
+# running right
+120002	213	763	232	790	0
+120003	253	763	272	790	0
+120004	293	764	312	790	0
+# running left
+120006	174	763	193	790	0
+120007	134	763	153	790	0
+120008	94	764	113	790	0
+# flying when running right
+120211	333	804	352	830	0
+# flying when running left
+120221	54	804	73	830	0
+# flying attack right
+120310	253	803	272	830	0
+# flying attack left
+120320	134	803	153	830	0
+#kick right
+120321	252	723	273	750	0
+#kick left
+120322	133	723	154	750	0
+# =========-----End BIG MARIO FIRE -------========
+
+
+# BIG MARIO HAVE TAIL
+# idle right
+11001	212	443	233	471	0
+# walk right
+11002	262	443	284	471	0
+11003	291	443	314	470	0	
+# idle left
+11005	173	443	194	471	0
+# walk left
+11006	122	443	144	471	0
+11007	92	443	115	470	0
+# sitting left
+11011	12	438	34	466	0
+# sitting right
+11012	372	438	394	466	0
+# stop right
+11016	175	482	191	512	0
+# stop left
+11017	215	482	231	512	0
+# fly right
+11021	331	443	354	470	0
+# fly left
+11022	52	443	75	470	0
+# falling right
+11031	211	603	234	631	0
+# falling left
+11032	172	603	195	631	0
+# attack right
+11041	236	443	259	471	0
+11042	355	483	378	511	0
+11043	147	443	170	471	0
+11044	390	483	413	511	0
+# attack left
+11043	147	443	172	471	0
+11042	355	483	371	511	0
+11041	234	443	259	471	0
+11044	390	483	406	511	0
+# running right
+110002	211	523	235	551	0
+110003	251	523	275	551	0
+110004	291	523	315	550	0
+# running left
+110006	171	523	195	551	0
+110007	131	523	155	551	0
+110008	91	523	115	551	0
+# flying when running right
+110211	291	603	315	631	0	
+# flying when running left
+110221	91	603	115	631	0
+# falling down slownly right (mario tail down) 
+110310	251	603	274	633	0
+# falling down slownly left   (mario tail down)
+110320	132	603	155	630	0
+# falling down slownly right (mario tail up)
+110311	331	603	355	630	0
+# falling down slownly left   (mario tail up)
+110321	51	603	75	630	0
+#kick right
+110322	247	483	269	511	0
+#kick left
+110323	137	483	159	511	0
+#Bring shell right idle
+110400	322	523	343	551	0
+#bring shell right walking
+110401	351	523	373	551	0
+#bring shell right running
+110402	381	523	404	551	0
+#Bring shell left idle
+110500	63	523	84	551	0
+#bring shell left walking
+110501	33	523	55	551	0
+#bring shell left running
+110502	2	523	25	551	0
+
+# =========-----End BIG MARIO HAVE TAIL-------========
+
+
+# BIG MARIO 
+# idle right
+10001	216	243	230	270	0
+# walk
+10002	255	243	271	270	0		
+10003	295	244	311	270	0
+# idle left
+10011	176	243	190	270	0
+#walk
+10012	135	243	151	270	0
+10013	95	244	111	270	0
+# sitting left
+10050	16	240	30	266	0
+# sitting right
+10051	376	240	390	266	0
+# stop right
+10060	175	283	191	311	0
+# stop left
+10061	215	283	231	311	0
+# fly right
+10070	335	244	351	270	0
+# fly left
+10071	55	244	71	270	0
+# running right
+100001	213	323	232	350	0
+100002	253	323	272	350	0
+100003	293	324	312	350	0
+# running left
+100012	174	323	193	350	0
+100013	134	323	153	350	0
+100014	94	324	113	350	0
+# flying when running right
+100701	333	364	352	390	0
+# flying when running left
+100711	54	364	73	390	0
+#KIck right
+100712	252	283	273	310	0
+#kick left
+100713	133	283	154	310	0
+
+# =========-----End BIG MARIO-------========
+
+
+# die 
+10099	375	209	391	224	0
+# SMALL MARIO
+# idle small right
+10021	217	89	229	104	0
+# walk
+10022	256	89	271	104	0
+10023	255	169	271	185	0
+# idle small left
+10031	177	89	189	104	0
+# walk
+10032	135	89	150	104	0
+10033	135	169	150	185	0
+# stop right
+10080	176	129	190	145	0
+# stop left
+10081	216	129	230	145	0
+# fly right
+10085	335	89	351	104	0
+# fly left
+10086	55	89	71	104	0
+# running right
+10040	215	169	231	184	0
+10041	255	169	271	184	0
+# running left
+10042	175	169	191	184	0
+10043	135	169	151	184	0
+# flying when running right
+100850	215	209	231	225	0
+# flying when running left
+100860	175	209	191	225	0
+#kick RIGHT
+100861	255	129	271	145	0
+#kick LEFT
+100862	135	129	151	145	0
+	
+
+# =================-------end small mario-------=================
+
+#QUESTION BRICK
+20011	157	188	173	204	20
+20012	176	188	192	204	20
+20013	196	188	212	204	20
+20014	215	188	231	204	20
+# QUESTION BRICK UNAVAILABLE
+20010	235	188	251	204	20
+#BRICK
+20001	254	188	270	204	20
+20002	274	188	290	204	20
+20003	309	144	325	160	20
+#GOOMBA
+30001	65	4	81	20	60
+30002	15	4	31	20	60
+#die
+30003	315	7	331	16	60
+
+# Pipe Flower
+# bong hoa nguoc CLOSE MOUTH len troi LEFT
+80000	165	545	181	578	60
+# bong hoa nguoc open mouth len troi LEFT
+80001	65	545	81	578	60
+# bong hoa nguoc close mouth xuong LEFT
+80002	115	545	131	578	60
+# bong hoa nguoc open mouth xuong LEFT
+80003	15	545	31	578	60
+
+# bong hoa nguoc close mouth len troi RIGHT
+80004	215	545	231	578	60
+# bong hoa nguoc open mouth len troi RIGHT
+80005	315	545	331	578	60
+# bong hoa nguoc close mouth xuong RIGHT
+80006	265	545	281	578	60
+# bong hoa nguoc open mouth xuong RIGHT
+80007	365	545	381	578	60
+
+# FIRE BULLET
+50	114	657	122	666	60
+51	134	658	142	666	60
+52	154	657	162	666	60
+53	174	658	182	666	60
+54	335	704	351	720	60
+55	375	704	391	720	60
+
+
+#KOOPAS
+#walk left
+50001	165	99	181	125	60
+50002	125	98	141	125	60
+#walk right
+50011	215	99	231	125	60
+50012	255	98	271	125	60
+# turtle shell
+50030	50	104	66	120	60
+#SHELL
+50031	50	104	66	120	60
+# turtle shell MOVE DOWN
+50032	15	104	31	120	60
+50033	15	129	31	145	60
+50034	15	154	31	170	60
+#turtle shell MOVE DOWN UP
+50040	365	104	382	120	60	
+50041	365	129	382	145	60
+50042	365	154	382	170	60
+#DIE DOWN
+50035	152	202	168	218	30
+#DIE UP
+50036	330	104	346	120	60
+# WAIT TO LIVE 1
+50050	50	104	66	120	60
+50051	48	104	64	120	60
+50052	52	104	68	120	60
+#
+50060	48	104	64	120	60
+50061	52	104	68	120	60
+50062	84	103	102	120	60
+
+
+
+# ani_id	sprite1_id	time1	sprite2_id	time2	...
+[ANIMATIONS]
+
+# ==== Item =========
+50	8888	10	8889	10	8890	10	8891	10	8888	10
+51	11	100
+52	12	100
+53	13	100
+
+# ==== MARIO =========
+#idle BIG right
+400	10001	100
+#idle BIG left
+401	10011	100
+#idle small right
+402	10021	100
+#idle small left
+403	10031	100
+#idle big have tail right
+404	11001	100
+#idle big have tail left
+405	11005	100
+
+
+#walk right big
+500	10001	100	10002	100	10003	100
+#walk left big
+501	10011	100	10012	100	10013	100
+#walk right small
+502	10021	100	10022	100	10023	100
+#walk left small
+503	10031	100	10032	100	10033	100
+#walk right big have tail
+504	11001	100	11002	100	11003	100
+#walk left big have tail
+505	11005	100	11006	100	11007	100
+
+#die
+599	10099	100
+#sitting big left	(BIG)
+415	10050	100
+#sitting big right	(BIG)
+416	10051	100
+#fly big right 	(BIG)
+430	10070	100
+#fly big left 	(BIG)
+431	10071	100
+# falling right	(BIG)
+4300	10003	100
+# falling left	(BIG)
+4301	10013	100
+
+#stop right 	(BIG) 
+450	10060	100
+#stop left	(BIG)	 
+451	10061	100
+# running right		(BIG)
+4321	100001	100	100002	100	100003	50
+# running left		(BIG)
+4322	100012	100	100013	100	100014	50
+# flying when running right	(BIG)
+4331	100701	100
+# flying when running left	(BIG)
+4332	100711	100
+
+
+#sitting big left	(BIG_TAIL)
+417	11012	100
+#sitting big right	(BIG_TAIL)
+418	11011	100
+#fly big right 		(BIG_TAIL)
+432	11016	100
+#fly big left 		(BIG_TAIL)
+433	11017	100
+#stop right 		(BIG_TAIL) 
+452	11021	100
+#stop left		(BIG_TAIL)	 
+453	11022	100
+# falling right		(BIG_TAIL)
+4302	11031	100
+# falling left		(BIG_TAIL)
+4303	11032	100
+# attacking right	(BIG_TAIL)
+4311	11041	75	11042	75	11043	75	11044	75	11041	75
+# attacking left	(BIG_TAIL)
+4312	11043	75	11042	75	11041	75	11044	75	11043	75
+# running right		(BIG_TAIL)
+4323	110002	100	110003	30	110004	30
+# running left		(BIG_TAIL)
+4324	110006	100	110007	30	110008	30
+
+# flying when running right	(BIG_TAIL)
+4333	110211	100
+# flying when running left	(BIG_TAIL)
+4334	110221	100
+# falling down slownly right
+43020	110310	25	11003	25
+# falling down slownly left
+43021	110320	100	11007	100
+# falling down slownly right  (mario tail up) 
+43022	110311	100
+# falling down slownly left   (mario tail up)
+43023	110321	100
+
+
+
+################### BIG FIRE  ########################
+
+#idle big FIRE right
+406	12001	100
+#idle big FIRE 	left
+407	12005	100
+
+#walk right 	(BIG_FIRE)
+506	12001	100	12002	100	12003	100
+#walk left 	(BIG_FIRE)
+507	12005	100	12006	100	12007	100
+
+#sitting big left	(BIG_FIRE)
+100	12012	100
+#sitting big right	(BIG_FIRE)
+101	12011	100
+#fly big right 		(BIG_FIRE)
+102	12016	100
+#fly big left 		(BIG_FIRE)
+103	12017	100
+#stop right 		(BIG_FIRE) 
+104	12021	100
+#stop left		(BIG_FIRE)	 
+105	12022	100
+# falling right		(BIG_FIRE)
+106	12003	100
+# falling left		(BIG_FIRE)
+107	12007	100
+# attacking right	(BIG_FIRE)
+108	12041	75
+# attacking left	(BIG_FIRE)
+109	12043	75
+# running right		(BIG_FIRE)
+110	120002	100	120003	100	120004	100
+# running left		(BIG_FIRE)
+111	120006	100	120007	100	120008	100
+# flying when running right	(BIG_FIRE)
+112	120211	100
+# flying when running left	(BIG_FIRE)
+113	120221	100
+# flying attack right		(BIG_FIRE)
+114	120211	100	120310	100
+# flying attack left		(BIG_FIRE)
+115	120221	100	120320	100
+
+#stop right 	(SMALL)
+460	10080	100
+#stop left	(SMALL)
+461	10081	100
+#fly big right 	(SMALL)
+440	10085	100
+#fly big left 	(SMALL)
+441	10086	100
+# running right	(SMALL)
+510	10040	100	10041	100
+# running left	(SMALL)
+511	10042	100	10043	100
+# flying when running right		(SMALL)
+4400	100850	100
+# flying when running left		(SMALL)	
+4410	100860	100
+#=======KICK=======
+#kick right (big FIRE)
+15000	120321	100		
+#kick left (big FIRE)
+15001	120322	100
+#kick right (TAIL)	
+15002	110322	100
+#kick left (TAIL)
+15003	110323	100
+#kick right (BIG)
+15004	100712	100
+#kick left	(BIG)
+15005	100713	100
+#kick right (SMALL)
+15006	100861	100
+#kick left (SMALL)
+15007	100862	100
+# ==== GOOMBA  =========
+# walk
+701	30001	100	30002	100
+# die
+702	30003	100
+
+# ==== KOOPAS  =========
+#walk left
+801	50001	100	50002	100
+#walk right
+802	50011	100	50012	100'
+#SHELL
+803	50031	100
+# shell appearance
+804	50030	100
+# SHELL MOVE DOWN
+805	50032	100	50033	100	50034	100
+# SHELL MOVE UP
+807	50040 	100	50041	100	50042	100
+# DIE DOWN
+806	50035	100
+#wait to live 1
+808	50050	50	50051	50	50052	50
+#wait to live 2
+809	50060	50	50061	50	50062	50
+#DIE UP
+810	50036	100
+
+# ==== BRICK =========
+601	20001	100
+602	20002	100
+603	20003	100
+
+# ==== QUESTION BRICK =========
+1	20011	75	20012	75	20013	75	20014	75	20011	75
+2	20010	100
+
+#FLOWER
+6	80000	100	80001	100
+7	80001	100
+8	80002	100	80003	100
+9	80003	100
+10	80004	100	80005	100
+11	80005	100
+12	80006	100	80007	100
+13	80007	100
+
+#===Coin====
+#Coin move slow
+8888	8888	100	8889	100	8890	100	8891	100	8888	100
+#Coin move fast
+8889	8892	300	8893	300	8894	300
+#Coin idle
+8890	8888	100
+
+#====Monney Effect=====
+#100
+88888	88888	100
+#200
+88889	88889	100
+#400
+88890	88890	100
+#800
+88891	88891	100
+#1000
+88892	88892	100
+#2000
+88893	88893	100
+#4000
+88894	88894	100
+#8000
+88895	88895	100
+# BULLET
+15	50	200	51	200	52	200	53	200
+16	54	100	55	100
+#
+# id	ani1	ani2	ani3
+#
+# SHELL WITH MARIO HAPPY ENDING FK
+#tail bring idle right
+8000	110400	100
+#tail bring idle left
+8001	110500	100
+#tail bring walking right
+8002	110401	100	110400	100	 110401	100
+#tail bring walking left 
+8003	110501	100	110500	100	110501	100
+[ANIMATION_SETS]
+# MARIO
+1	400	401	402	403	500	501	502	503	599 	415	416	430	431	450	451	460	461	440	441	404	405	504	505	417	418	432	433	452	453	4300	4301	4302	4303	4311	4312	510	511	4321	4322	4323	4324	4331	4332	4333	4334	4400	4410	43020	43021	43022	43023	506	507	100	101	102	103	104	105	106	107	108	109	110	111	112	113	114	115	406	407	15000	15001	15002	15003	15004	15005	15006	15007	8000	8001	8002	8003
+# BRICK 
+2	601	602	603
+# QUESTION BRICK 
+22	1	2
+# GOOMBA
+3	701	702	
+#KOOPAS
+4	801	802	803	804	805	806	807	808	809	810
+#Item
+5	50	51	52	53
+# FLOWER
+6	6	7	8	9	10	11	12	13
+# BULLET
+7	15	16
+#COIN
+8	8888	8889	8890
+#MONEY
+9	88888	88889	88890	88891	88892	88893	88894	88895
+
+[OBJECTS]
+# type	x	y	ani_set_id	extra_settings per object type
+# type: 0 = Mario , 1 = Brick, 2 = Goomba, 3 = Koopas, 4=Floor, 5=Color Box  ,6=Piranha_flower_shot
+8 = coin , 9 = money
+
+# MARIO
+0	10	0	1
+
+# KOOPAS
+#3	20	300	4
+
+# Bullet
+#12	20	60	7
+
+
+#GOOMBA
+2	240	400	3
+
+# --- SCENE PORTAL ----
+# type	l	t	ani_set_id	r	b	scene_id
+
+#FLOOR
+4	0	416	22	39	1
+4	624	400	22	29	1
+4	1152	416	22	22	1
+4	1536	416	22	5	1
+4	1664	416	22	36	1
+4	2256	416	22	35	1
+4	-16	384	22	1	10
+4	352	368	22	2	3
+4	1505	336	22	2	1
+4	1569	400	22	1	1
+4	1585	384	22	1	2
+4	1601	368	22	1	3
+4	1665	368	22	1	3
+4	1681	384	22	1	2
+4	1697	400	22	1	1
+4 	1793	384	22	2	2
+4	1857	368	22	2	3
+4	2256	368	22	2	3
+4	2256	128	22	2	12
+4	2320	384	22	2	2
+#COLOR BOX
+5	240	368	20	3	3
+5	272	336	20	3	5
+5	400	368	20	5	3
+5	464	336	20	4	5
+5	512	384	20	6	2
+5	512	304	20	4	7
+5	1264	384	20	7	2
+5	1296	352	20	7	4
+5	1328	320	20	7	6
+5	2144	368	20	3	3
+5	2176	272	20	3	9
+5	1312	144	20	4	18
+5	1408	192	20	4	15
+5	1488	176	20	13	16
+#BRICK
+1	192	352	22	1
+1	176	352	22	1
+1	224	304	22	1
+1	240	304	22	2
+1	416	320	22	1
+1	656	384	22	2
+1	704	352	22	1
+1	1473	368	22	2
+1	1440	128	22	3
+1	2032	368	22	3
+
+#Coin
+7	1952	400	8	1
+7	1968	384	8	1
+7	1968	400	8	1
+7	1984	368	8	1
+7	1984	384	8	1
+7	1984	400	8	1
+7	2000	368	8	1
+7	2000	384	8	1
+7	2000	400	8	1
+7	2016	368	8	1
+7	2016	384	8	1
+7	2016	400	8	1
+#7	2032	368	8	1
+7	2032	384	8	1
+7	2032	400	8	1
+7	2048	400	8	1
+7	2096	384	8	1
+7	2096	400	8	1
+7	2112	400	8	1
+7	1073	320	8	2
+7	1105	288	8	2
+7	1137	256	8	2
+7	1169	224	8	2
+7	1201	192	8	2
+7	1329	80	8	2
+7	1345	80	8	2
+7	1361	80	8	2
+7	1473	112	8	2
+7	1489	112	8	2
+7	1537	128	8	2
+7	1553	128	8	2
+7	1569	128	8	2
+7	1585	128	8	2
+7	1617	112	8	2
+7	1633	112	8	2
+7	1649	112	8	2
+7	1665	112	8	2
+7	1697	144	8	2
+7	1729	112	8	2
+7	1761	128	8	2
+7	1809	96	8	2
+7	1841	128	8	2
+
+6	360	382	6	
+
